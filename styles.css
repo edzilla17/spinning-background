@@ -1,10 +1,11 @@
 :root {
     --_size: 800px;
     --_size_m: -400px;
-    --_primaryColor: hsl(240, 100%, 50%, 1);
-    --_SeconaderyColor: hsl(240, 100%, 50%, .7);
-    --_SeconaderyColor2: hsl(240, 100%, 50%, .5);
-    --_SeconaderyColor3: hsl(240, 100%, 50%, .2);
+    --_primaryColor: rgb(0, 0, 255);
+    --_SeconaderyColor: rgb(0, 0, 87);
+    --_SeconaderyColor2: rgb(0, 0, 161);
+    --_SeconaderyColor3: rgb(0, 0, 48);
+    --_backGround: black;
   }
 
 * {
