@@ -1,6 +1,10 @@
 :root {
     --_size: 800px;
     --_size_m: -400px;
+    --_primaryColor: hsl(240, 100%, 50%, 1);
+    --_SeconaderyColor: hsl(240, 100%, 50%, .7);
+    --_SeconaderyColor2: hsl(240, 100%, 50%, .5);
+    --_SeconaderyColor3: hsl(240, 100%, 50%, .2);
   }
 
 * {
@@ -43,8 +47,8 @@ body {
     border-radius: 50%;
     position: absolute;
     border: 55px solid transparent;
-    border-top: 55px solid blue;
-    border-bottom: 55px solid red;
+    border-top: 55px solid var(--_primaryColor);
+    border-bottom: 55px solid var(--_SeconaderyColor);
     border-style: dashed;
 }
 
@@ -84,8 +88,8 @@ body {
     border-radius: 50%;
     position: absolute;
     border: 55px solid transparent;
-    border-top: 55px solid red;
-    border-bottom: 55px solid blue;
+    border-top: 55px solid var(--_SeconaderyColor2);
+    border-bottom: 55px solid var(--_SeconaderyColor3);
     /* border-style: dashed; */
 }
 
